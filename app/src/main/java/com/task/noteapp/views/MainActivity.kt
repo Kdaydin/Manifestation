@@ -1,7 +1,8 @@
-package com.task.noteapp
+package com.task.noteapp.views
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.task.noteapp.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
