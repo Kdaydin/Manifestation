@@ -22,7 +22,7 @@ fun setDate(view: TextView, date: Long?) {
     date?.let {
         val temp = Date()
         temp.time = date
-        val dateStr = SimpleDateFormat("dd/mm/yyyy", Locale("tr")).format(temp)
+        val dateStr = SimpleDateFormat("dd/MM/yyyy", Locale("tr")).format(temp)
         view.text = dateStr
     }
 }
